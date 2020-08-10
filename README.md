@@ -7,6 +7,7 @@ Les objectifs de l'exercice étaient de:
     - générer une carte (ici grâce à Leaflet) et afficher la localisation d'une station Bicloo
 
 Langages utilisés: JavaScript
+
 Utilisation de la bibliotèque jQuery et de la bibliothèque JavaScript de cartographie Leaflet
 
 Le site est responsive.
