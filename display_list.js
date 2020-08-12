@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let ul = document.createElement('ul');
     display.appendChild(ul);
 
-    $.get('https://api.jcdecaux.com/vls/v1/stations?apiKey=b91888dba6ab242e1f13b377cb8b47b13aec62e0&contract=nantes', importData);
+    $.get('https://api.jcdecaux.com/vls/v1/stations?apiKey=[APIkey to download on JCDecaux website]&contract=nantes', importData);
 
     function importData(stations) {
         let index = 0;
