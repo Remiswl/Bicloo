@@ -17,7 +17,7 @@ function displayInfo(e) {
     index = element.getAttribute('data-index');
 
     // Récupérer la BDD
-    let apiKey = 'b91888dba6ab242e1f13b377cb8b47b13aec62e0';
+    let apiKey = '[APIkey to download on JCDecaux website]';
     let city = 'nantes';
     let url = `https://api.jcdecaux.com/vls/v1/stations?apiKey=${ apiKey }&contract=${ city}`;
 
@@ -76,13 +76,13 @@ function displayMap(latitude, longitude) {
         mymap = L.map('mapid').setView([ latitude, longitude ], 45);
         marker = L.marker([ latitude, longitude ]).addTo(mymap);
 
-        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicnplIiwiYSI6ImNrZDh1MnIwYTAxbXkzM3J4MzQ4OGNnZDEifQ.p3Jqg1aMILv4CRHydga2gQ', {
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=[AccessToken to download on Mapbox website]', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
             maxZoom: 18,
             id: 'mapbox/streets-v11',
             tileSize: 512,
             zoomOffset: -1,
-            accessToken: 'pk.eyJ1IjoicnplIiwiYSI6ImNrZDh1MnIwYTAxbXkzM3J4MzQ4OGNnZDEifQ.p3Jqg1aMILv4CRHydga2gQ'
+            accessToken: '[AccessToken to download on Mapbox website]'
         }).addTo(mymap);
     } else {
         mymap.panTo([ latitude, longitude ]);
