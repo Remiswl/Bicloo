@@ -6,6 +6,4 @@ Les objectifs de l'exercice étaient de (1) exploiter des API (ici celle de JC D
 
 Langage utilisé: JavaScript
 
-Utilisation de la bibliotèque jQuery et de la bibliothèque JavaScript de cartographie Leaflet
-
-Le site est responsive.
+Utilisation de la bibliotèque jQuery et de la bibliothèque JavaScript de cartographie Leaflet.
