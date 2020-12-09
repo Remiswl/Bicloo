@@ -1,9 +1,21 @@
-#Bicloo
+# Bicloo - Bicycle sharing system
+Developed using an MVC framework (framework designed by 3W Academy, based on __Symfony 4.4__), the restaurant's website allows registered users to book a table and order dishes.
 
-Le projet Bicloo a été réalisé dans le cadre de ma formation à la 3W Academy.
+The site was made in the frame of my training in 3W Academy.
 
-Les objectifs de l'exercice étaient de (1) exploiter des API (ici celle de JC Decaux) afin d'afficher en temps réel le nombre de places disponible sur une station Bicloo, les Vélib' nantais; (2) générer une carte (ici grâce à Leaflet) et afficher la localisation d'une station Bicloo.
+The objectives of the exercise were to:
+1. Use APIs (here that of JC Decaux) in order to display in real time the number of places available at a Bicloo station (bicyle sharing system of the French city of Nantes)
+2. Generate a map (here thanks to __Leaflet__) and display the location of a Bicloo station.
 
-Langage utilisé: JavaScript
+## Technologies
+* __JavaScript ES6__
+* __jQuery__
+* API: __Leaflet__
+* Mapping: open
 
-Utilisation de la bibliotèque jQuery et de la bibliothèque JavaScript de cartographie Leaflet.
+## Launch
+To launch the site, open 'index.php'.
+
+## Comments
+* the website is responsive 
+* it is conform to the W3C standards
