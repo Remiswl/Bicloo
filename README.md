@@ -11,11 +11,16 @@ The objectives of the exercise were to:
 * __JavaScript ES6__
 * __jQuery__
 * API: __Leaflet__
-* Mapping: open
+* Mapping: __Mapbox__, __OpenStreetMap__
 
 ## Launch
 To launch the site, open 'index.php'.
 
+To run the site, enter:
+1. a JCDecaux' access key in 'display_data.js', line 20.
+2. a Mapbox' accessToken in 'display_data.js', line 85.
+
 ## Comments
 * the website is responsive 
 * it is conform to the W3C standards
+* comments are in French
