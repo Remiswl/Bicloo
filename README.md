@@ -19,5 +19,5 @@ The objectives of the exercise were to:
 * comments are in French
 
 To run and use the site, you will have to enter:
-1. a JCDecaux' access key in 'display_data.js', line 20.
-2. a Mapbox' accessToken in 'display_data.js', lines 78 & 85.
+1. a JCDecaux' access key in 'display_data.js', line 20
+2. a Mapbox' accessToken in 'display_data.js', lines 78 & 85
